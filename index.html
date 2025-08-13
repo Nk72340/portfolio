@@ -27,7 +27,7 @@
     .timeline-item::before { content:""; position:absolute; left:.75rem; top:.4rem; width:10px; height:10px; border-radius:50%; background:var(--accent); box-shadow:0 0 0 4px rgba(34,211,238,.15); }
     footer { border-top:1px dashed rgba(148,163,184,.25); }
     a { text-decoration:none; }
-    h3 { color: white !important ;}
+    h3, .fw-semibold, .form-label { color: white !important ;}
   </style>
 </head>
 <body>
@@ -256,7 +256,7 @@
               <i class="bi bi-trophy fs-2 accent"></i>
               <div>
                 <div class="fw-semibold">Standout Performer</div>
-                <div class="text-secondary small">Protecons Solutions Pvt. Ltd.</div>
+                <div class="text-secondary small">Dec 2024 • Protecons</div>
               </div>
             </div>
           </div>
@@ -313,15 +313,15 @@
             <form id="contact-form">
               <div class="mb-3">
                 <label class="form-label">Name</label>
-                <input type="text" class="form-control" required />
+                <input type="text" class="form-control bg-secondary text-white" required />
               </div>
               <div class="mb-3">
                 <label class="form-label">Email</label>
-                <input type="email" class="form-control" required />
+                <input type="email" class="form-control bg-secondary text-white" required />
               </div>
               <div class="mb-3">
                 <label class="form-label">Message</label>
-                <textarea class="form-control" rows="4" required></textarea>
+                <textarea class="form-control bg-secondary text-white" rows="4" required></textarea>
               </div>
               <button class="btn btn-accent" type="submit"><i class="bi bi-send"></i> Send</button>
               <div id="form-status" class="small mt-3 text-secondary"></div>
